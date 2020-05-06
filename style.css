@@ -1,0 +1,239 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+#backBody{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    height: 600px;
+    width: 400px;
+    background: #091921;
+    border-radius: 25px;
+    box-shadow: 0px -15px 15px rgba(255, 255, 255, 0.03),
+                inset 0px -15px 15px rgba(255, 255, 255, 0.03),
+                0px 15px 15px rgba(0, 0, 0, 0.3),
+                inset 0px 15px 15px rgba(0, 0, 0, 0.3) ;
+    border: none;
+    color: white;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+#upperBody{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+}
+#search{
+    position: absolute;
+    width: 307px;
+    top: 40%;
+    color: white;
+    left: 8%;
+    height: 30px;
+    font-size: 20px;
+    background: #091921;
+    border-radius: 15px;
+    box-shadow: 0px -15px 15px rgba(255, 255, 255, 0.03),
+                inset 0px -15px 15px rgba(255, 255, 255, 0.03),
+                0px 15px 15px rgba(0, 0, 0, 0.5),
+                inset 0px 15px 15px rgba(0, 0, 0, 0.5) ;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    font-family: serif;
+}
+#middleBody{
+    position: absolute;
+    top: 11%;
+    left: 10%;
+    height: 420px;
+    width: 330px;
+    border-radius: 15px;
+    background: #091921;
+    box-shadow: 0px -15px 15px rgba(255, 255, 255, 0.03),
+                inset 0px -15px 15px rgba(255, 255, 255, 0.03),
+                0px 15px 15px rgba(0, 0, 0, 0.5),
+                inset 0px 15px 15px rgba(0, 0, 0, 0.5) ;
+    border: none;
+}
+#displayImg{
+    position: absolute;
+    top: 8%;
+    left: 10.5%;
+    border-radius: 15px;
+}
+#Bars{
+    position: absolute;
+    top: 84%;
+    left: 7%;
+    color:black;
+    border: none;
+    cursor: pointer;
+}
+#prev{
+    position: absolute;
+    top: 84%;
+    left: 22%;
+    background-color:#091921;
+    border: none;
+    cursor: pointer;
+}
+#play{
+    position: absolute;
+    top: 82%;
+    left: 42%;
+    background: #091921;
+    border-radius: 50%;
+    box-shadow: 0px -15px 15px rgba(255, 255, 255, 0.03),
+                inset 0px -15px 15px rgba(255, 255, 255, 0.03),
+                0px 15px 15px rgba(0, 0, 0, 0.3),
+                inset 0px 15px 15px rgba(0, 0, 0, 0.3) ;
+    border: none;
+    cursor: pointer;
+}
+#next{
+    position: absolute;
+    top: 84%;
+    left: 68%;
+    background-color:#091921;
+    border: none;
+    cursor: pointer;
+}
+#mute{
+    position: absolute;
+    top: 83%;
+    left: 84%;
+    background-color:#091921;
+    border: none;
+    cursor: pointer;
+}
+#lowerBody{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    height: 70px;
+    width: 330px;
+    border-radius: 15px;
+    background: #091921;
+    box-shadow: 0px -15px 15px rgba(255, 255, 255, 0.03),
+                inset 0px -15px 15px rgba(255, 255, 255, 0.03),
+                0px 15px 15px rgba(0, 0, 0, 0.5),
+                inset 0px 15px 15px rgba(0, 0, 0, 0.5) ;
+    border: none;
+    color: white;
+}
+#like{
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    height: 30px;
+    width: 40px;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+#downloadBtn{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    height: 30px;
+    width: 40px;
+    background-color: #091921;
+    border: none;
+    cursor: pointer;
+}
+#repeatBtn{
+    position: absolute;
+    cursor: pointer;
+    top: 30%;
+    left: 58%;
+    height: 30px;
+    width: 40px;
+    background-color: #091921;
+    border: none;
+}
+#menu{
+    position: absolute;
+    cursor: pointer;
+    top: 25%;
+    left: 78%;
+    height: 30px;
+    width: 40px;
+    color: black;
+    border: none;
+}
+#availSongs{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 13%;
+    left: 70%;  
+    background-color: #091921;
+    overflow: auto;
+    display: none;
+}
+p{
+    position: absolute;
+    top: 4%;
+    display: none;
+    left: 72%;
+    color:white;
+    font-size: 25px;
+}
+.sliderContainer{
+    position: absolute;
+    left: 10%;
+    top: 74%;
+    width: 270px;
+}
+#sliderFill{
+    position: absolute;
+    top: 2px;
+    left: 0%;
+    width: 0px;
+    height: 5px;
+    background-color: cornflowerblue; 
+}
+.slider{
+    -webkit-appearance: none;
+    position: absolute;
+    width: 270px;
+    height: 5px;
+    left: 0%;
+    top: 1%;
+    outline: none;
+    cursor: pointer;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+#favSongs{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 13%;
+    left: 5%;  
+    background-color: #091921;
+    overflow: auto;
+    display: none;
+}
+h5{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    display: none;
+    left: 7%;
+    color:white;
+    font-size: 25px;
+}
